@@ -2,7 +2,7 @@ import turtle
 from turtle import *
 t = Turtle()
 
-t.speed(100000000000000)
+t.speed(1000)
 
 
 # for i in range(60):
@@ -18,15 +18,23 @@ def square(x,y):
       t.forward(x)
       t.left(y)
 
-def doublesquare(iRange):
-    length = 5
+# def doublesquare(iRange):
+#     length = 5
+#     for i in range(iRange):
+#         square(length, 90)
+#         length += 25
+# doublesquare(5)
+
+def squarespiral(iRange):
+    length = 100
+    angle = 90
     for i in range(iRange):
-        square(length, 90)
+        square(length, angle)
         length += 25
-doublesquare(5)
+        
+        
 
-
-
+squarespiral(60)
 
    
 
