@@ -1,17 +1,5 @@
-import turtle
-from turtle import *
-t = Turtle()
-
-t.forward(200)
-turtle.done()
-
-def square(x):
-    t.forward(x)
-    t.left(90) 
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90) 
-    t.forward(x)
-    t.left(90)
-square(200)
+def language(n, y):
+    t = 0
+    T = 0
+    s = 0
+    S = 0
