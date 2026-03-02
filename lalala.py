@@ -30,8 +30,8 @@ def squarespiral(iRange):
     angle = 90
     for i in range(iRange):
         square(length, angle)
-        length += 25
-        
+        length += 5
+        angle += 5        
         
 
 squarespiral(60)
