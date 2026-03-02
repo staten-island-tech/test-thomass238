@@ -27,11 +27,11 @@ def square(x,y):
 
 def squarespiral(iRange):
     length = 100
-    angle = 90
+    angle = 270
     for i in range(iRange):
         square(length, angle)
         length += 5
-        angle += 5        
+        angle += 5
         
 
 squarespiral(60)
