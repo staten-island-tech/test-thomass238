@@ -17,6 +17,7 @@ def square(x,y):
     for i in range (4):
       t.forward(x)
       t.left(y)
+      y = 90
 
 # def doublesquare(iRange):
 #     length = 5
